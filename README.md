@@ -1,3 +1,9 @@
+# Computational Geometry Explorations
+
+### Demos of different geometrical algorithms in 2d and 3d space.
+
+---
+
 ## *Usage Instructions below Examples*
 # Examples
 ## Single Joint!

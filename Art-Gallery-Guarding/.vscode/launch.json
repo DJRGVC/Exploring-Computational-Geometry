@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "${workspaceFolder}/guard",
+      "MIMode": "lldb"
+    },
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/guard",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/dgrant2/Bowdoin/Spring2022/Computational_Geometry/projects/Project4/guard-avant-guard",
+      "program": "/Users/dgrant2/Bowdoin/Spring2022/Computational_Geometry/projects/Project4/guard-avant-guard/build/Debug/outDebug"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+
+/* ****************************** */
+/* Initializes pts with n points in a spiral pattern.  The points are
+   in the range (0,0) to (WINSIZE,WINSIZE).
+*/ 
+void initialize_points_spiral(vector<point2d>& pts, int n) {
+  
+  printf("\ninitialize points spiral\n"); 
+  //clear the vector just to be safe 
+  pts.clear(); 
+
+  // random value for creating some randomness in the spiral
+  int r = random() % 10;
+
+  // radius of the spiral, to increase as points are added
+  point2d p;
+  for (int i=0; i<n; i++) {
+    // increase the radius
+    double radius = double(i)/(1.2*n) * WINDOWSIZE/2;
+    // calculate the angle of the point
+    double angle = (double)3*i/n * 2 * M_PI;
+    // calculate the x and y coordinates of the point
+    r = random() % 30 - 15;
+    p.x = WINDOWSIZE/2 + radius * cos(angle) + r;
+    r = random() % 30 - 15;
+    p.y = WINDOWSIZE/2 + radius * sin(angle) + r;
+    pts.push_back(p);
+  }
+  
+  
+}
+
+
+/* ****************************** */
+/* Initializes pts with n points in a six point star pattern.  The points are
+   in the range (0,0) to (WINSIZE,WINSIZE).
+*/ 
+void initialize_points_six_point_star(vector<point2d>& pts, int n) {
+  
+  printf("\ninitialize points six point star\n"); 
+  //clear the vector just to be safe 
+  pts.clear(); 
+
+  // random value for creating some randomness in the spiral
+  int r = random() % 10;
+
+  // current radius
+  double radius = WINDOWSIZE/8;
+
+  // radius of the spiral, to increase as points are added
+  point2d p;
+  for (int i=0; i<n; i++) {
+    if (i % (n/6) < n/12) {
+      // increase the radius
+      radius += (3*(WINDOWSIZE/(8))/(n/12));
+    }
+    else {
+      // decrease the radius
+      radius -= (3*(WINDOWSIZE/(8))/(n/12));
+    }
+
+    // calculate the angle of the point
+    double angle = (double)i/n * 2 * M_PI;
+    // calculate the x and y coordinates of the point
+    r = random() % 20 - 10;
+    p.x = WINDOWSIZE/2 + radius * cos(angle) + r;
+    r = random() % 20 - 10;
+    p.y = WINDOWSIZE/2 + radius * sin(angle) + r;
+    pts.push_back(p);
+  }
+}

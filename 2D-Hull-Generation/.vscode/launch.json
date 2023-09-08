@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/dgrant2/Bowdoin/Spring2022/Computational_Geometry/projects/Project2/hull2d-hull-wheat-bread",
+      "program": "/Users/dgrant2/Bowdoin/Spring2022/Computational_Geometry/projects/Project2/hull2d-hull-wheat-bread/build/Debug/outDebug"
+    }
+  ]
+}

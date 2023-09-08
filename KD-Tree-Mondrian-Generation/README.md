@@ -1,0 +1,3 @@
+Description:
+
+First, in the mondrian.cpp file, we generate a kd tree using a simple algorithm that first sorts the points (n points, based on user inputs) by both x and y lexiographically. Then, we recurse through the points, finding the midpoint and making vertical and horizontal cuts up until the base case of only containing one node. Once our KD tree is generated, it is up to recursing through the tree again in the thePainterMan.cpp file, which recursively updates the bounds of a given point until it reaches a leaf, in which case it colors in that section with a random color (of the typical mondrian colors), making sure to leave a border to create the lines throughout the piece. 

@@ -1,6 +1,6 @@
-<img width="1001" alt="Screenshot 2023-02-28 at 3 17 30 PM" src="https://github.com/DJRGVC/Exploring-Computational-Geometry/assets/42795164/a58df798-3c68-4d05-a0fa-28ae815a0567"><img width="915" alt="Screenshot 2023-02-28 at 3 12 42 PM" src="https://github.com/DJRGVC/Exploring-Computational-Geometry/assets/42795164/a1acc02f-2c44-4a51-afd8-d05ee0bec5a3"># Computational Geometry Explorations
+# Welcome to my Exploration of various Computational Geometry Concepts!
 
-### Demos of different geometrical algorithms in 2d and 3d space.
+### Will include demos of different geometrical algorithms in 2d and 3d space.
 
 ---
 

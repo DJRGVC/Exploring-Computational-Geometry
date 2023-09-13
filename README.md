@@ -1,4 +1,4 @@
-# Welcome to my Exploration of various Computational Geometry Concepts!
+# Welcome to my exploration of various computational geometry concepts!
 
 ### Will include demos of different geometrical algorithms in 2d and 3d space.
 
